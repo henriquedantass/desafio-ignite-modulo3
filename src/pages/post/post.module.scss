@@ -1,1 +1,28 @@
-// TODO
+
+
+
+
+.header {
+    strong {
+        color: var(--heading);
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    ul {
+        margin: 1rem 0 4rem;
+        display: flex;
+        list-style: none;
+
+        & li {
+            font-size: 1rem;
+            & svg {
+                margin-right: 0.5rem;
+            }
+    
+            & + li {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
