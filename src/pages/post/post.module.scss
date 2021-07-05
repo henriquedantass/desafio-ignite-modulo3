@@ -1,7 +1,29 @@
+.post { 
+    h1 { 
+        font-size: 2.5rem;
+        color : var(--heading);
+        margin: 2rem 0;
+    }
+
+    p,span,a,ul {
+        font-size: 1.125rem;
+        line-height: 1.0;
+        margin: 1.5rem 0;
+    }
+
+    strong { 
+        color: var(--body);
+        font-weight: 700;
+    }
+}
 
 
-
-
+.banner {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 30%;
+}
 .header {
     strong {
         color: var(--heading);
